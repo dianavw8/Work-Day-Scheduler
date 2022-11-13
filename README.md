@@ -27,7 +27,7 @@ For more help and information achiving this, check out the following website: ht
 The refactored website can be found at: https://dianavw8.github.io/Work-Day-Scheduler/
 
 The following image demonstrates the web application's appearance and functionality:
-![The Work Day Scheduler webpage includes a card with Generate Password button.](./Assets/Work-Day-Scheduler-Web-Image.jpg)
+![The Work Day Scheduler webpage includes a scheduler with hours of 9am-5pm, rows for adding text, save buttons at the end of each and a clear schedule button at the bottom.](./Assets/Work-Day-Scheduler-Web-Image.jpg)
 
 ## Lessons Learned
 The Work Day Scheduler project used a lot of conditionals (if's and else's) that needed to be precise to allow for the proper function of the scheduler. Working with the Day.js library helped to set the proper times and dates for the application. Over all this was a fun project and loved the result of the application that I plan to use the Work Day Scheduler for myself.
