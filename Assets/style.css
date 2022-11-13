@@ -1,0 +1,123 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: rgba(255,255,255,0.5) !important;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+  color: white;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+.time-row {
+  border-top: 1px solid white;
+  overflow: hidden;
+}
+
+.hour {
+  background-color: rgba(var(--bs-light-rgb), 0.6);
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: rgba(var(--bs-dark-rgb), 0.5);
+  color: white;
+}
+
+.present {
+  background-color: rgba(var(--bs-danger-rgb), 0.5); 
+  color: white;
+}
+
+.future {
+  background-color: rgba(var(--bs-success-rgb), 0.5);  
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(var(--bs-info-rgb), 0.5) !important;  
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.clearBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(var(--bs-warning-rgb), 0.5) !important;  
+  color: white;
+}
+
+.clearBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-content{
+  border-radius: 20px;
+}
+.modal-show{
+  display: block;
+}
+.modal-hide{
+  display: none;
+}
+
+html {
+	height: 100%;
+	/* max-height: 600px; */
+	width: 100%;
+	background-color: hsla(200,40%,30%,.4);
+	background-image:		
+		url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+		url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		2500px,
+		800px,
+		500px 200px,
+		1000px,
+		400px 260px;
+	animation: 600s para infinite linear;
+	}
+
+@keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
